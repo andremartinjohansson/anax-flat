@@ -1,4 +1,5 @@
 ####GitHub
 
 * [Anax-Flat](https://github.com/mosbth/anax-flat)
-* [Me Anax-Flat](https://github.com/andymartinj/anax-flat-me)
+* [Website Source](https://github.com/andymartinj/anax-flat)
+* [Theme](https://github.com/andymartinj/anax-flat-theme)

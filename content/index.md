@@ -15,7 +15,7 @@ Home
 ===============================
 
 My name is André Johansson, also known as Andy to my friends. Originally I come
-from a little town in Skåne that I love. But to study webpraogramming in
+from a little town in Skåne that I love. But to study webprogramming in
 Karlskrona, I have moved to Karlshamn. It's not optimal - takes me about
 40 minutes to get to school by car. But hoping to get an apartment closer to
 school soon.
