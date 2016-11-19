@@ -14,6 +14,12 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "home" => [
+                "text"  => t("Home"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Home")
+            ],
+
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -27,10 +33,22 @@ return [
                 "title" => t("About this website")
             ],
 
-            "Test" => [
+            "test" => [
                 "text"  => t("Sandbox"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Sandbox")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography")
             ],
         ],
     ],
@@ -49,6 +67,12 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "home" => [
+                "text"  => t("Home"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Home")
+            ],
+
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -62,10 +86,22 @@ return [
                 "title" => t("About this website")
             ],
 
-            "Test" => [
+            "test" => [
                 "text"  => t("Sandbox"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("Sandbox")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography")
             ],
         ],
     ],
