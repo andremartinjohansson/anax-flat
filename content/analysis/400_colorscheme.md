@@ -5,7 +5,7 @@ Här utvärderar vi fyra webbplatsers färgval och känslan de signalerar.
 
 ##1 Nordlys Viking
 
-<img src="img/nordlys.jpg">
+[FIGURE src="image/nordlys.jpg?crop-to-fit&area=0,0,2,0" caption="Nordlys Viking" class="center"]
 
 ####Färger
 
@@ -41,7 +41,7 @@ med restan av bodyn som är vit med grå text.
 
 ##2 Sydsvenskan
 
-<img src="img/sydsvenskan.jpg">
+[FIGURE src="image/sydsvenskan.jpg?crop-to-fit&area=0,0,2,0" caption="Sydsvenskan" class="center"]
 
 ####Färger
 
@@ -83,7 +83,7 @@ senaste nyheter.
 
 ##3 SMHI
 
-<img src="img/smhi.jpg">
+[FIGURE src="image/smhi.jpg?crop-to-fit&area=0,0,2,0" caption="SMHI" class="center"]
 
 ####Färger
 
@@ -119,7 +119,7 @@ också en ganska seriös sida, så det passar ganska bra.
 
 ##4 Visit Karlskrona
 
-<img src="img/visitk.jpg">
+[FIGURE src="image/visitk.jpg?crop-to-fit&area=0,0,2,0" caption="Visit Karlskrona" class="center"]
 
 ####Färger
 

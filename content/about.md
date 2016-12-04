@@ -12,7 +12,7 @@ Technology. It is available on [GitHub](https://github.com/andymartinj/anax-flat
 
 The full website source is available [here](https://github.com/andymartinj/anax-flat).
 
-<a href="https://github.com/andymartinj/anax-flat" target="_blank"><img src="img/github.png" alt="GitHub Repository" width="100" style="background-color: #E9E9E9; border-radius: 6pc;"></a>
+[FIGURE src="image/github.png?w=100" class="git-img"]
 
 ---
 views:

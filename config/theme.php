@@ -18,7 +18,7 @@ return [
             "lang"          => "en",
             "charset"       => "utf-8",
             "title_append"  => " | design",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "favicon"       => "image/favicon/favicon_256x256.png",
 
             // Style and stylesheets
             //"stylesheets" => ["css/default.min.css"],
@@ -43,7 +43,7 @@ return [
             "template" => "default/image",
             "data" => [
                 "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
+                "src" => "image/favicon/favicon_128x128.png",
                 "alt" => "Logo",
             ],
             "sort" => 1
@@ -54,7 +54,7 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "André Johansson",
-                "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
+                "siteLogoTextIcon" => "image/favicon/favicon_40x40.png",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
