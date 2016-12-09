@@ -76,5 +76,31 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "depth"       => [
+            "title"      => "Design: Depth",
+            "class"      => "depth",
+            "stylesheets" => [
+                "css/depth.min.css"
+            ]
+        ],
+
+        "texture"       => [
+            "title"      => "Design: Texture",
+            "class"      => "texture",
+            "stylesheets" => [
+                "css/texture.min.css"
+            ]
+        ],
+
+        "framing"       => [
+            "title"      => "Design: Framing",
+            "class"      => "framing",
+            "stylesheets" => [
+                "css/framing.min.css"
+            ]
+        ],
     ]
 ];

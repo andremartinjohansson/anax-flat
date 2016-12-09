@@ -570,9 +570,6 @@ template {
 .sidebar-right {
   padding-right: 10px;
 }
-.breadcrumb {
-  margin-bottom: 22px;
-}
 .breadcrumb ul {
   list-style: none;
 }
@@ -582,10 +579,18 @@ template {
 .breadcrumb li::after {
   content: " » ";
 }
+.inner-wrap-breadcrumb {
+  padding: 24px;
+  padding-bottom: 28px;
+  margin-top: -3px;
+}
 .breadcrumb-list a {
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
+}
+.breadcrumb-list ul {
+  margin: 0;
 }
 .breadcrumb-list li {
   display: inline;
@@ -654,6 +659,7 @@ template {
 .figure figcaption {
   display: block;
   caption-side: bottom;
+  padding-top: 6px;
   color: gray;
 }
 .figure figcaption p {
@@ -1018,15 +1024,47 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   float: left;
 }
 .rm-desktop li a {
-  padding: 0 10px;
-  font-size: 10px;
+  padding: 0 20px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.rm-desktop li a::before {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  color: transparent;
+  content: '•';
+  text-shadow: 0 0 transparent;
+  font-size: 1.2em;
+  -webkit-transition: text-shadow 0.3s, color 0.3s;
+  -moz-transition: text-shadow 0.3s, color 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  pointer-events: none;
 }
 .rm-desktop li a:hover {
   text-decoration: none;
+}
+.rm-desktop li a:hover::before,
+.rm-desktop li a:focus::before {
+  color: #E9E9E9;
+  text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+.rm-desktop li ul li {
+  padding: 10px;
+  background-color: #063266;
+  top: 8px;
+}
+.rm-desktop li ul li a::before {
+  content: "";
 }
 .flash-wrap {
   text-align: center;
@@ -1344,7 +1382,6 @@ body span {
 }
 .outer-wrap-main {
   font: 100.01%/1.5 'Cabin', sans-serif;
-  margin-bottom: 20px;
 }
 .outer-wrap-main pre,
 .outer-wrap-main code,
@@ -1436,12 +1473,6 @@ body span {
 }
 .outer-wrap-main hr {
   top: 0;
-}
-.outer-wrap-flash {
-  margin-bottom: 28px;
-}
-.outer-wrap-breadcrumb {
-  margin-bottom: 20px;
 }
 .columns {
   margin-bottom: 4px;

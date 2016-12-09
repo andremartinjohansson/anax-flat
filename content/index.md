@@ -36,4 +36,4 @@ Astronomy is something I've found in later years, but I've always loved airplane
 and flying since I was very small. Hoping to one day be able to get a private
 pilot's license in my hometown.
 
-![Picture of me](image/me.jpg&?w=200)
+[FIGURE src="image/me.jpg&?w=200"]
