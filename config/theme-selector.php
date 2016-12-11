@@ -102,5 +102,31 @@ return [
                 "css/framing.min.css"
             ]
         ],
+
+        "separator4" => "------------------------------------------------",
+
+        "background"       => [
+            "title"      => "Background: Photo, opacity, borders, center",
+            "class"      => "background",
+            "stylesheets" => [
+                "css/background.min.css"
+            ]
+        ],
+
+        "texture-bg"       => [
+            "title"      => "Texture: Texture, images",
+            "class"      => "texture-bg",
+            "stylesheets" => [
+                "css/texture-bg.min.css"
+            ]
+        ],
+
+        "gradient"       => [
+            "title"      => "Gradient: Gradient, full width",
+            "class"      => "gradient",
+            "stylesheets" => [
+                "css/gradient.min.css"
+            ]
+        ],
     ]
 ];

@@ -67,7 +67,7 @@ return [
 
             "testing" => [
                 "text"  =>"Testing",
-                "url"   => $this->di->get("url")->create("sandbox"),
+                "url"   => $this->di->get("url")->create("test"),
                 "title" => "Testing functions",
 
                 "submenu" => [
